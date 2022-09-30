@@ -28,14 +28,10 @@ elif (sys.argv[1] == '-l'):
 		ip = ip.strip('\n') #Removing any new line character from the end of line
 		ip = ip.strip('\r')
 		w = whois.whois(ip)
-#getting the variables to write on csv		
-		registrar = w.registrar
-		name = w.name
-		country = w.country
-		city = w.city
-		email = w.emails
+#getting the variables to write on csv		 
+		registrar, name, country, city, email = w.name, w.country, w.city, w.emails, w.registrar
 		outfile.writerow([ip, registrar, email, name, country, city]) 
-		i= i+1
+		i+=1
 		print (i)
 
 print ('Done')
