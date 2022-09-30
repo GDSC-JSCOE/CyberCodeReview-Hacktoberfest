@@ -10,7 +10,7 @@ with open('subdomain_names.txt','r') as file:
 	
 	# printing number of subdomain names present in
 	# the list
-	print(f"Number of subdomain names present in the file are: {len(sub_dom)}\n")
+	print("Number of subdomain names present in the file are: {len(sub_dom)}\n")
 	
 	# printing list of subdomain names present in the
 	# text file
