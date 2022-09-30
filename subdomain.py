@@ -16,3 +16,4 @@ with open('subdomain_names.txt','r') as file:
 	# text file
 	print("List of subdomain names present in the file\n")
 	print(sub_dom)
+	print(Pratiksha)
