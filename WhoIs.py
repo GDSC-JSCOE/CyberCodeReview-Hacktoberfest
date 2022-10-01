@@ -35,7 +35,7 @@ elif (sys.argv[1] == '-l'):
 		city = w.city
 		email = w.emails
 		outfile.writerow([ip, registrar, email, name, country, city]) 
-		i= i+1
+		i+=1
 		print (i)
 
 print ('Done')
