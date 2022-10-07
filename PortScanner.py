@@ -42,6 +42,6 @@ except socket.gaierror #OPS-IS THIS AN ISSUE?
 except socket.error #SAME SILLY DEV MISTAKE
 		print("\ Server not responding !!!!")
 		sys.exit()
-except socket.error #Diff Isues not reported
+except socket.error #Different Isues not reported
 		print("\ Server responding !!!!")
 		sys.exit()
